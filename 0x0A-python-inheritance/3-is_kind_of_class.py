@@ -1,13 +1,15 @@
 #!/usr/bin/python3
+"""check if it is instance of class and inheritance"""
+
+
 def is_kind_of_class(obj, a_class):
-    """ Function that returns True/False if obj is an instance of a_class
+    """is kind of class through inheritance or anything
 
     Args:
-        obj: object
-        a_class: class type
+        obj: the object to check
+        a_class: the class to check from
 
     Returns:
-        True if obj is an instance of a_class
-        False, otherwise
+        True if and false else
     """
-    return isinstance(obj, a_class)
+    return (isinstance(obj, a_class)
